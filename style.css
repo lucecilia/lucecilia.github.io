@@ -29,7 +29,7 @@ header p {
 }
 
 
-.Introtext {
+h2 {
     font-family: 'Helvetica', sans-serif;
     font-size: 60px;
     font-weight: 500;
@@ -40,6 +40,7 @@ header p {
 h3 {
     font-family: 'Helvetica', sans-serif;
     font-size: 40px;
-    margin: 0 0 20px;
+    font: weight 300;
+    margin: 0;
     color: #FF6F61;
   }
