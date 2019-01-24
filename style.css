@@ -27,3 +27,23 @@ header p {
     padding: 0 20px;
     margin: 0;
 }
+
+.jumbotron {
+    display: flex;
+    align-items: center;
+    color #ffffff;
+    height: 350px;
+}
+
+.jumbotron h2 {
+    font-size: 60px;
+    font-weight: 500;
+    margin: 0;
+    color: #000000;
+  }
+  
+  .jumbotron h3 {
+    font-size: 40px;
+    margin: 0 0 20px;
+    color: FF6F61;
+  }
