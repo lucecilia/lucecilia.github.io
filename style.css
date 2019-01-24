@@ -28,15 +28,8 @@ header p {
     margin: 0;
 }
 
-.jumbotron {
-    font-family: 'Helvetica', sans-serif;
-    display: flex;
-    align-items: center;
-    color #ffffff;
-    height: 550px;
-}
 
-.jumbotron h2 {
+main h2 {
     font-family: 'Helvetica', sans-serif;
     font-size: 60px;
     font-weight: 500;
@@ -44,7 +37,7 @@ header p {
     color: #000000;
   }
   
-  .jumbotron h3 {
+  main h3 {
     font-family: 'Helvetica', sans-serif;
     font-size: 40px;
     margin: 0 0 20px;
