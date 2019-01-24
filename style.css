@@ -32,7 +32,7 @@ header p {
     display: flex;
     align-items: center;
     color #ffffff;
-    height: 350px;
+    height: 450px;
 }
 
 .jumbotron h2 {
@@ -45,5 +45,5 @@ header p {
   .jumbotron h3 {
     font-size: 40px;
     margin: 0 0 20px;
-    color: FF6F61;
+    color: #FF6F61;
   }
