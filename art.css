@@ -47,37 +47,111 @@ main h1 {
 
 
 
-.row_1{
+.row1{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     margin:0px;
     position: relative;
-    top: 60px;
+    top: 140px;
     justify-content: space-around
   }
 
-.row_2{
+.row2{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    margin:100px;
+    margin:0px;
     position: relative;
-    top: 60px;
+    top: 150px;
     justify-content: space-around;
 }
 
-.row_3{
+.row3{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    margin:100px;
+    margin:0px;
     position: relative;
-    top: 60px;
+    top: 160px;
     justify-content: space-around;
 }
 
-  .carousel{
-    width:600px;
-    height:380px
-  }
+
+
+.image{
+  display: block;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-wrap: wrap;
+  position: relative
+}
+
+.tshkr{
+  background-color:#adbdb5;
+  height: 490px;
+  width:51%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  position: relative;
+  left:5px;
+}
+
+.banff{
+  background-color:#F9EBD4;
+  height: 490px;
+  width:46%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  position: relative;
+  right:5px;
+}
+
+.tides{
+  background-color:#D4E4F9;
+  height: 490px;
+  width:38%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  position: relative;
+  left:5px;
+}
+
+.moria{
+  background-color:#e2d7c1;
+  height: 490px;
+  width:59%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  position: relative;
+  right:5px;
+}
+
+.hearth{
+  background-color:#e8cabf;
+  height: 650px;
+  width:48%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  position: relative;
+  left:5px;
+}
+
+.self{
+  background-color:#cdc6c1;
+  height: 650px;
+  width:49%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  position: relative;
+  right:5px;
+}
