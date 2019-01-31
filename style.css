@@ -48,6 +48,12 @@ header p {
 
 .yay{
   justify-content: center;
+  position:relative;
+  text-align: center
+}
+
+.current_word{
+  justify-content: center;
   text-align: center
 }
 
