@@ -51,9 +51,9 @@ main h1 {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    margin:80px;
+    margin:0px;
     position: relative;
-    top: 60px;
+    top: 140px;
     justify-content: space-around;
   }
 
@@ -61,21 +61,51 @@ main h1 {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    margin:100px;
+    margin:0px;
+    top:130px;
     position: relative;
-    top: 60px;
     justify-content: space-around;
 }
 
 .sign_in{
-  background-color:#d3c7b8
+  background-color:#e2e9f3;
+  height: 490px;
+  width:37%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  position: relative;
+  left:5px;
+
 }
 
-  .rect{
-    background-color:#006e9A;
-    color:#FFFFFF;
-    font-family: 'Helvetica', sans-serif;
-    text-align: center;
-    font-size: 20px;
-    font-weight: bolder;
+.contours{
+  background-color:#b2bab0;
+  height: 490px;
+  width:60%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  position: relative;
+  right:5px;
+
+}
+
+.yb{
+  background-color:#d9ced3;
+  height: 540px;
+  width:98%;
+  top: 20px;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+  .image{
+    justify-content: center;
+    top:40px;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative
   }
