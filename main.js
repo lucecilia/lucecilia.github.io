@@ -1,12 +1,12 @@
-var keywords = ["understand", "heal", "improve", "empathize"];
-var colours = ["red", "green", "blue", "orange"];
+var keywords = ["empathize.", "heal.", "improve.", "give.", "challenge.", "share."];
+var colours = ["cornflowerblue", "darkgreen", "goldenrod", "salmon", "yellowgreen",  "peru", "lightslategray"];
 var count = 1;
-setInterval(function(){    
-    $("span.keyword").fadeOut(400, function(){        
+setInterval(function(){
+    $("span.current_word").fadeOut(400, function(){
         $(this).html(keywords[count]).css("color", colours[count]);
-        count++;        
-        if(count == keywords.length)            
-            count = 0;        
-        $(this).fadeIn(400);    
+        count++;
+        if(count == keywords.length)
+            count = 0;
+        $(this).fadeIn(400);
     });
 }, 2000);
