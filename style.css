@@ -16,7 +16,7 @@ header .row {
 header h1 {
     font-weight: bolder;
     font-weight:700;                                  ;
-    font-size: 24px;
+    font-size: 22px;
     color: #000000
 }
 
@@ -29,6 +29,7 @@ header nav {
     right: -300px;
     font-size: 15px;
     font-weight: 500;
+    color:#000000
 
 }
 
