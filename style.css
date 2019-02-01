@@ -1,22 +1,22 @@
-body {
-    font-family: 'Helvetica', sans-serif;
-    font-weight: 100;
+body, main {
+    font-family: 'muli', sans-serif;
 }
 
 
 
-header .row,
-footer .row {
+header .row {
     display: flex;
     align-items: center;
     position: relative;
     top:20px
 }
 
+
+
 header h1 {
     font-weight: bolder;
-    font-weight:600;                                  ;
-    font-size: 26px;
+    font-weight:700;                                  ;
+    font-size: 24px;
     color: #000000
 }
 
@@ -27,8 +27,8 @@ header nav {
     justify-content: flex-end;
     position: relative;
     right: -300px;
-    font-size: 16px;
-    font-weight: bolder;
+    font-size: 15px;
+    font-weight: 500;
 
 }
 
@@ -43,7 +43,7 @@ header p {
     position: relative;
     margin: 20px;
     top: 60px;
-    justify-content: center
+    justify-content: center;
   }
 
 .yay{
@@ -58,24 +58,25 @@ header p {
 }
 
   main h2 {
-    font-family: 'Helvetica', sans-serif;
+    font-family: 'Muli', sans-serif;
     text-align: center;
-    font-size: 22px;
-    font-weight: 400;
+    font-size: 20px;
+    font-weight: 500;
     margin: 10px;
     color: #b7b7b7;
   }
 
 main h3 {
-    font-family: 'Helvetica', sans-serif;
+    font-family: 'muli', sans-serif;
     font-size: 50px;
-    font-weight: 500;
+    font-weight: 600;
     margin: 15px;
     color: #000000;
   }
 
+
 .current_word {
-    font-weight: 600;
+    font-weight: 700;
     color: #FF6F61
 }
 
@@ -231,4 +232,42 @@ main h3 {
 
 .container4:hover .overlay4 {
   opacity: 1;
+}
+
+.footer {
+  display: flex;
+  position: relative;
+  height: 200px;
+  top: 340px;
+  justify-content: center;
+  width: 100%;
+}
+
+footer h3{
+  text-align: center;
+  font-family: 'muli', sans-serif;
+  font-weight: bold;
+  color: #454545
+}
+
+footer p{
+  font-weight:bolder
+}
+.icons{
+  display: flex;
+  justify-content: center;
+}
+
+.fa{
+   color: #454545;
+   margin:8px
+}
+
+.endtext{
+  position: relative;
+  top: 40px;
+  text-align: center;
+  font-family: 'muli', sans-serif;
+  color: #b7b7b7;
+  font-weight:400
 }
