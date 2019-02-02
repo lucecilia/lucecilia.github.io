@@ -14,6 +14,8 @@ header .row {
 
 
 header h1 {
+    position: relative;
+    left: 45px;
     font-weight: bolder;
     font-weight:700;                                  ;
     font-size: 22px;
@@ -34,16 +36,18 @@ header nav {
 }
 
 header p {
+    position: relative;
+    right: 45px;
     padding: 0 20px;
     margin: 0;
-    color:#000000
+    color:#000000;
 }
 
 
 .introtext {
     position: relative;
     margin: 20px;
-    top: 60px;
+    top: 80px;
     justify-content: center;
   }
 
@@ -93,7 +97,7 @@ main h3 {
     justify-content: center;
     margin:0px;
     position: relative;
-    top: 130px;
+    top: 200px;
 }
 
 .div2{
@@ -102,7 +106,7 @@ main h3 {
     justify-content: center;
     margin:0px;
     position: relative;
-    top: 140px;
+    top: 210px;
 
 }
 
