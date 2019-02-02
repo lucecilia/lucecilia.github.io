@@ -87,13 +87,36 @@ main h1 {
 .sign_in{
   background-color:#e2e9f3;
   height: 490px;
-  width:37%;
+  width:32%;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   position: relative;
-  left:5px;
+  left:45px;
 }
+
+.contours{
+  background-color:#b2bab0;
+  height: 490px;
+  width:52%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  position: relative;
+  right:45px;
+}
+
+.yb{
+  background-color:#d9ced3;
+  height: 540px;
+  width:85%;
+  top: 20px;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
 
 
 .image {
@@ -132,16 +155,7 @@ main h1 {
   text-align: center;
 }
 
-.contours{
-  background-color:#b2bab0;
-  height: 490px;
-  width:60%;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  position: relative;
-  right:5px;
-}
+
 
 .overlay2 {
   position: absolute;
@@ -160,16 +174,7 @@ main h1 {
   opacity: 1;
 }
 
-.yb{
-  background-color:#d9ced3;
-  height: 540px;
-  width:98%;
-  top: 20px;
-  position: relative;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-}
+
 
 .overlay3 {
   position: absolute;
