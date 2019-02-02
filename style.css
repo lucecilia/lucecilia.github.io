@@ -81,6 +81,12 @@ main h3 {
     color: #FF6F61
 }
 
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
 .div1{
     display: flex;
     flex-wrap: wrap;
@@ -102,8 +108,29 @@ main h3 {
 
 .container1 {
   position: relative;
-  right:30px;
-  width: 110%;
+  justify-content: left;
+  right:5px;
+  width: 100%;
+}
+
+.container2 {
+  position: relative;
+  justify-content: center;
+  left:5px;
+  width: 100%;
+  height: auto
+}
+
+.container3 {
+  position: relative;
+  width: 100%;
+  right:5px
+}
+
+.container4 {
+  position: relative;
+  width: 100%;
+  left:5px
 }
 
 .image {
@@ -144,19 +171,6 @@ main h3 {
 
 
 
-
-.container2 {
-  position: relative;
-  left:30px;
-  width: 110%;
-}
-
-.image {
-  display: block;
-  width: 100%;
-  height: auto;
-}
-
 .overlay2 {
   position: absolute;
   top: 0;
@@ -174,13 +188,6 @@ main h3 {
   opacity: 1;
 }
 
-
-
-.container3 {
-  position: relative;
-  width: 110%;
-  right:30px
-}
 
 .image {
   display: block;
@@ -206,11 +213,7 @@ main h3 {
 }
 
 
-.container4 {
-  position: relative;
-  width: 110%;
-  left:30px
-}
+
 
 .image {
   display: block;
