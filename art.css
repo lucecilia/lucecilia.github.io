@@ -111,67 +111,67 @@ main h1 {
 .tshkr{
   background-color:#adbdb5;
   height: 490px;
-  width:51%;
+  width:43%;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   position: relative;
-  left:5px;
+  left:45px;
 }
 
 .banff{
   background-color:#F9EBD4;
   height: 490px;
-  width:46%;
+  width:41%;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   position: relative;
-  right:5px;
+  right:45px;
 }
 
 .tides{
   background-color:#D4E4F9;
-  height: 490px;
-  width:38%;
+  height: 450px;
+  width:34%;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   position: relative;
-  left:5px;
+  left:45px;
 }
 
 .moria{
   background-color:#e2d7c1;
-  height: 490px;
-  width:59%;
+  height: 450px;
+  width:50%;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   position: relative;
-  right:5px;
+  right:45px;
 }
 
 .hearth{
   background-color:#e8cabf;
-  height: 650px;
-  width:48%;
+  height: 600px;
+  width:42%;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   position: relative;
-  left:5px;
+  left:45px;
 }
 
 .self{
   background-color:#cdc6c1;
-  height: 650px;
-  width:49%;
+  height: 600px;
+  width:42%;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   position: relative;
-  right:5px;
+  right:45px;
 }
 
 .footer {
