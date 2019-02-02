@@ -13,6 +13,8 @@ header .row{
 }
 
 header h1{
+    position: relative;
+    left: 45px;
     font-weight: bolder;
     font-weight:700;
     font-size: 22px;
@@ -36,6 +38,8 @@ header nav {
     font-weight: bolder}
 
 header p {
+    position: relative;
+    right: 45px;
     padding: 0 20px;
     margin: 0;
     color:#000000
