@@ -35,7 +35,10 @@ header nav {
     position: relative;
     right: -300px;
     font-size: 16px;
-    font-weight: bolder}
+    font-weight: bolder;
+    color:#000000
+
+  }
 
 header p {
     position: relative;
@@ -44,6 +47,10 @@ header p {
     margin: 0;
     color:#000000
     }
+
+.headtext{
+  color:#000000
+}
 
 main h1 {
       font-family: 'muli', sans-serif;
