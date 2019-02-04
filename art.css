@@ -50,6 +50,10 @@ header p {
       color:#000000
     }
 
+.headtext2{
+      color:#b7b7b7
+    }
+
 main h1 {
       font-family: 'muli', sans-serif;
       position: relative;
@@ -116,8 +120,23 @@ main h1 {
   position: relative
 }
 
+
+.text {
+  color: gray;
+  font-family: 'muli', sans-serif;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+
 .tshkr{
-  background-color:#adbdb5;
+  background-color:#5e5f5f;
   height: 490px;
   width:43%;
   display: flex;
@@ -127,8 +146,29 @@ main h1 {
   left:45px;
 }
 
+
+.overlay1 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #5e5f5f;
+}
+
+
+.tshkr:hover .overlay1 {
+  opacity: 1;
+}
+
+
+
 .banff{
-  background-color:#F9EBD4;
+  background-color:#f0e5e4;
   height: 490px;
   width:41%;
   display: flex;
@@ -138,8 +178,27 @@ main h1 {
   right:45px;
 }
 
+.overlay2 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #f0e5e4;
+}
+
+
+.banff:hover .overlay2 {
+  opacity: 1;
+}
+
+
 .tides{
-  background-color:#D4E4F9;
+  background-color:#d8dfe9;
   height: 450px;
   width:34%;
   display: flex;
@@ -149,8 +208,26 @@ main h1 {
   left:45px;
 }
 
+.overlay3 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #d8dfe9;
+}
+
+
+.tides:hover .overlay3 {
+  opacity: 1;
+}
+
 .moria{
-  background-color:#e2d7c1;
+  background-color:#e8e5de;
   height: 450px;
   width:50%;
   display: flex;
@@ -160,8 +237,26 @@ main h1 {
   right:45px;
 }
 
+.overlay4 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #e8e5de;
+}
+
+.moria:hover .overlay4 {
+  opacity: 1;
+}
+
+
 .hearth{
-  background-color:#e8cabf;
+  background-color:#e6d2c1;
   height: 600px;
   width:42%;
   display: flex;
@@ -171,8 +266,27 @@ main h1 {
   left:45px;
 }
 
+.overlay5 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #e6d2c1;
+}
+
+
+.hearth:hover .overlay5 {
+  opacity: 1;
+}
+
+
 .self{
-  background-color:#cdc6c1;
+  background-color:#e3e3e3;
   height: 600px;
   width:42%;
   display: flex;
@@ -180,6 +294,24 @@ main h1 {
   justify-content: center;
   position: relative;
   right:45px;
+}
+
+.overlay6 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #e3e3e3;
+}
+
+
+.self:hover .overlay6 {
+  opacity: 1;
 }
 
 .footer {
