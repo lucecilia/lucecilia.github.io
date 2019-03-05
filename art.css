@@ -110,14 +110,15 @@ main h1 {
 
 
 .image{
-  display: block;
   margin-top: auto;
   margin-bottom: auto;
   margin-left: auto;
   margin-right: auto;
   display: flex;
   flex-wrap: wrap;
-  position: relative
+  position: relative;
+  height:auto;
+  width:auto;
 }
 
 
