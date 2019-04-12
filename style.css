@@ -112,21 +112,29 @@ main h3 {
     justify-content: center;
     margin:0px;
     position: relative;
-    top: 190px;
+    top: 200px;
+}
 
+.div3{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin:0px;
+    position: relative;
+    top: 220px;
 }
 
 .container1 {
   position: relative;
   justify-content: left;
-  right:5px;
+  left:10px;
   width: 100%;
 }
 
 .container2 {
   position: relative;
   justify-content: center;
-  left:5px;
+  right:10px;
   width: 100%;
   height: auto
 }
@@ -134,13 +142,25 @@ main h3 {
 .container3 {
   position: relative;
   width: 100%;
-  right:5px
+  left:10px
 }
 
 .container4 {
   position: relative;
   width: 100%;
-  left:5px
+  right:10px
+}
+
+.container5 {
+  position: relative;
+  width: 100%;
+  left:10px
+}
+
+.container6 {
+  position: relative;
+  width: 100%;
+  right:10px
 }
 
 .image {
@@ -177,8 +197,6 @@ main h3 {
   transform: translate(-50%, -50%);
   text-align: center;
 }
-
-
 
 
 .overlay2 {
@@ -223,14 +241,6 @@ main h3 {
 }
 
 
-
-
-.image {
-  display: block;
-  width: 100%;
-  height: auto;
-}
-
 .overlay4 {
   position: absolute;
   top: 0;
@@ -245,6 +255,40 @@ main h3 {
 }
 
 .container4:hover .overlay4 {
+  opacity: 1;
+}
+
+.overlay5 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #ECEFFF;
+}
+
+.container5:hover .overlay5 {
+  opacity: 1;
+}
+
+.overlay6 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #EFF7FF;
+}
+
+.container6:hover .overlay6 {
   opacity: 1;
 }
 
